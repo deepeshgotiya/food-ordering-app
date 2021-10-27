@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    text-align: center;
+    background-color: #F3F4F6;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cardContainer{
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    background-color: #F3F4F6;
+    display: block;
+    width: 59vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    text-align: center;
+    /* border: 1px solid black; */
+    box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.65);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+padding: 1rem 1rem;
+border-radius: 1rem;
+}
+
+
+.image{
+    width: 200px;
+    box-shadow: 2px 4px 8px 0px #BFDBFE;
+}
+.imageCont{
+   padding: 1rem;
+}
+.heading{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-style: italic;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+    
+}
+.cardBody{
+    display: flex;
+    flex-direction: column;
+}
+.dish{
+    font-family: 'Bebas Neue', cursive;
+}
+
+#button{
+    text-align: center;
+    align-items: center;
+    margin: 1.5rem;
+    width:6rem;
+    height: 3rem;
+    box-shadow: inset 0 0 0 0 #3B82F6;
+    background-color: #BFDBFE;
+    color: white;
+    font-size: 1rem;
+    transition: ease-out 0.3s;
+    text-align: center;
+    font-size: 1rem;
+}
+#button:hover{
+    box-shadow: inset 100px 0 0 0 #3B82F6;
+    cursor: pointer;
+    color: black;
+}
+.order-button{
+   background-color: #BFDBFE;
+   padding: 0.5rem;
+   border-radius: 3px;
+   box-shadow: 2px 4px 8px 0px #BFDBFE;
+   color: white;
+}
+.order-button:hover{
+    color: black;
+    cursor: pointer;
+}
+.price{
+    color: black;
+    display: block;
+    margin: 1rem;
+    font-size: 1rem;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+}
